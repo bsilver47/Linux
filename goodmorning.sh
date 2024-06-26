@@ -7,8 +7,6 @@ for i in {1..15} ; do
     tmux attach -t mysession
 done
 
-tmux attach -t mysession
-
 for i in {16..1}; do
     tmux send-keys -t $i C-z 'echo "Good Morning, Sir!"' Enter
 done
@@ -16,7 +14,6 @@ done
 tmux send-keys -t 1 'sudo ./updates.sh' Enter
 tmux send-keys -t 2 C-z 'locate gnuradio-companion' Enter
 tmux send-keys -t 3 C-z 'htop' Enter
-
 
 tmux send-keys -t 4 C-z 'echo "This is where I ssh"' Enter
 tmux send-keys -t 5 C-z 'echo "This is where I rsync"' Enter
@@ -32,6 +29,3 @@ tmux send-keys -t 12 C-z 'curl parrot.live' Enter
 tmux send-keys -t 13 C-z 'cowsay moo' Enter
 tmux send-keys -t 14 C-z 'telnet towel.blinkenlights.nl' Enter
 tmux send-keys -t 15 C-z 'echo "This is open"' Enter
-
-
-
