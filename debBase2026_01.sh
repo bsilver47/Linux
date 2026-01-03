@@ -17,6 +17,7 @@ apt install -y dotnet-sdk-10.0
 
 # installation of other programs
 apt install git # installs git for further downloading and uploading other packages as demonstrated below
+git clone https://github.com/curl/curl # curl allows for use of other scripts from online to populate in the terminal
 curl -f https://zed.dev/install.sh | sh # Zed is an open source IDE for use as needed and desired
 apt install tmux # tmux is a tool for maintaining multiple windows within a single terminal emulator tab
 apt install htop # htop is a tool for viewing machine performance and activity
