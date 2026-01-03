@@ -21,6 +21,7 @@ git clone https://github.com/curl/curl # curl allows for use of other scripts fr
 curl -f https://zed.dev/install.sh | sh # Zed is an open source IDE for use as needed and desired
 apt install tmux # tmux is a tool for maintaining multiple windows within a single terminal emulator tab
 apt install htop # htop is a tool for viewing machine performance and activity
+# curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh # Not strictly relevant to this term, I have been doing more with Rust; thus, for easier access, this is here
 
 # installation of LazyVim; a tool that acts as a text editor within terminal emulators that is preconfigured for programming
 git clone https://github.com/LazyVim/starter ~/.config/nvim
